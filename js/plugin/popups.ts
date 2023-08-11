@@ -368,8 +368,6 @@ class BrowserModPopup extends LitElement {
       :host([fullscreen]) ha-dialog {
         --mdc-dialog-min-width: 100vw;
         --mdc-dialog-max-width: 100vw;
-        --mdc-dialog-min-height: 0%;
-        --mdc-dialog-max-height: 100%;
         --mdc-shape-medium: 0px;
         --vertical-align-dialog: flex-start;
         --ha-dialog-border-radius: var(--popup-border-radius, 28px);
@@ -386,8 +384,6 @@ class BrowserModPopup extends LitElement {
         ha-dialog {
           --mdc-dialog-min-width: 97vw;
           --mdc-dialog-max-width: 97vw;
-          --mdc-dialog-min-height: 0%;
-          --mdc-dialog-max-height: 100%;
           --vertical-align-dialog: flex-start;
           --ha-dialog-border-radius: var(--popup-border-radius, 28px);
         }
