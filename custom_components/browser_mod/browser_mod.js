@@ -198,7 +198,7 @@ const e="undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof self&&se
         --mdc-dialog-max-height: 100%;
         --mdc-shape-medium: 0px;
         --vertical-align-dialog: flex-start;
-        --ha-dialog-border-radius: 0px;
+        --ha-dialog-border-radius: var(--popup-border-radius, 28px);
         --dialog-surface-margin-top: 0px;
       }
       :host([fullscreen]) .content {
@@ -214,7 +214,7 @@ const e="undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof self&&se
           --mdc-dialog-max-width: 97vw;
           --mdc-dialog-max-height: 100%;
           --vertical-align-dialog: flex-start;
-          --ha-dialog-border-radius: 0;
+          --ha-dialog-border-radius: var(--popup-border-radius, 28px);
         }
         :host([wide]) .content {
           width: 100vw;
