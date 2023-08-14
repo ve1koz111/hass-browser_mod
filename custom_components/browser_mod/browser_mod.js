@@ -195,7 +195,6 @@ const e="undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof self&&se
       :host([fullscreen]) ha-dialog {
         --mdc-dialog-min-width: 100vw;
         --mdc-dialog-max-width: 100vw;
-        --mdc-dialog-min-height: 0%;
         --mdc-dialog-max-height: 100%;
         --mdc-shape-medium: 0px;
         --vertical-align-dialog: flex-start;
@@ -213,7 +212,6 @@ const e="undefined"!=typeof globalThis&&globalThis||"undefined"!=typeof self&&se
         ha-dialog {
           --mdc-dialog-min-width: 97vw;
           --mdc-dialog-max-width: 97vw;
-          --mdc-dialog-min-height: 0%;
           --mdc-dialog-max-height: 100%;
           --vertical-align-dialog: flex-start;
           --ha-dialog-border-radius: 0;
